@@ -1,0 +1,23 @@
+[2026-01-20T06:02:24Z] start mode=ONLINE
+[2026-01-20T06:02:24Z] iframe src extracted: http://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276585&chrClsCd=010202&urlMode=lsInfoP&efYd=&ancYnChk=0&mobile=&gubun=api
+[2026-01-20T06:02:24Z] iframe src saved: out/iframe_src.txt
+[2026-01-20T06:02:53Z] error: request failed: HTTPSConnectionPool(host='www.law.go.kr', port=443): Read timed out.
+[2026-01-20T06:02:53Z] failed: no HTML fetched
+[2026-01-20T06:03:15Z] start mode=ONLINE
+[2026-01-20T06:03:15Z] iframe src extracted: http://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276585&chrClsCd=010202&urlMode=lsInfoP&efYd=&ancYnChk=0&mobile=&gubun=api
+[2026-01-20T06:03:15Z] iframe src saved: out/iframe_src.txt
+[2026-01-20T06:03:41Z] GET http://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276585&chrClsCd=010202&urlMode=lsInfoP&efYd=&ancYnChk=0&mobile=&gubun=api status=200 redirected=True final_url=https://www.law.go.kr/LSW/lsInfoP.do?gubun=api&ancYnChk=0&chrClsCd=010202&efYd=&lsiSeq=276585&urlMode=lsInfoP&mobile=
+[2026-01-20T06:03:41Z] raw HTML saved: out/lsInfoP_raw.html
+[2026-01-20T06:03:41Z] links parsed: 7 (skipped javascript: 73)
+[2026-01-20T06:03:41Z] links saved: out/links.json
+[2026-01-20T08:06:45Z] start mode=ONLINE
+[2026-01-20T08:06:45Z] iframe src extracted: http://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276585&chrClsCd=010202&urlMode=lsInfoP&efYd=&ancYnChk=0&mobile=&gubun=api
+[2026-01-20T08:06:45Z] iframe src saved: out/iframe_src.txt
+[2026-01-20T08:06:50Z] GET http://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276585&chrClsCd=010202&urlMode=lsInfoP&efYd=&ancYnChk=0&mobile=&gubun=api status=200 redirected=True final_url=https://www.law.go.kr/LSW/lsInfoP.do?gubun=api&ancYnChk=0&efYd=&lsiSeq=276585&urlMode=lsInfoP&chrClsCd=010202&mobile=
+[2026-01-20T08:06:50Z] raw HTML saved: out/lsInfoP_raw.html
+[2026-01-20T08:06:50Z] lsInfoR params: {'lsiSeq': '276585', 'ancYd': '20251001', 'ancNo': '21065', 'efYd': '20260102', 'nwJoYnInfo': 'Y', 'chrClsCd': '010202', 'ancYnChk': '0', 'lsId': '001854', 'lsNm': '전기사업법', 'lsClsCd': 'L', 'nwYn': 'Y', 'efYn': 'Y'}
+[2026-01-20T08:07:12Z] POST https://www.law.go.kr/LSW/lsInfoR.do status=200 redirected=False final_url=https://www.law.go.kr/LSW/lsInfoR.do
+[2026-01-20T08:07:12Z] body HTML saved: out/lsInfoR_body.html
+[2026-01-20T08:07:12Z] merged HTML saved: out/lsInfoP_full.html
+[2026-01-20T08:07:12Z] links parsed: 475 (skipped javascript: 765)
+[2026-01-20T08:07:12Z] links saved: out/links.json
