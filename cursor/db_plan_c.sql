@@ -29,6 +29,7 @@ CREATE TABLE IF NOT EXISTS public.law_article (
     revision_type       text,
     is_changed          varchar(2),
     article_text        text,
+    related_laws        jsonb,
     source_json_path    text,
     created_at          timestamp without time zone DEFAULT now(),
     updated_at          timestamp without time zone DEFAULT now()

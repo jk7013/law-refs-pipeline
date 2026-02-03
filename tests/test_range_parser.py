@@ -1,4 +1,4 @@
-from src.refs.range_parser import parse_range
+from law_refs.domain.normalize import parse_range
 
 
 def test_parse_range_inherit_clause():

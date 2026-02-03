@@ -1,2 +1,14 @@
-# 연계법령 추출 및 정규화 모듈
+"""
+DEPRECATED: use `law_refs` package.
+
+This package is retained for backward compatibility only.
+"""
+
+import warnings
+
+warnings.warn(
+    "src.refs is deprecated. Use src.law_refs instead.",
+    DeprecationWarning,
+    stacklevel=2,
+)
 

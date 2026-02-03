@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[project]
+name = "law-refs"
+version = "0.1.0"
+description = "Law related reference extraction pipeline"
+requires-python = ">=3.9"
+dependencies = [
+  "beautifulsoup4",
+  "lxml",
+  "requests",
+  "psycopg2-binary",
+]
+
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
